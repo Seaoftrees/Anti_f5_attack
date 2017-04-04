@@ -14,10 +14,10 @@ Please only write this in first of php file.
 </code>
 ↓after↓
 <code>
-<?php
+\<?php
 	require "./anti_f5.php";
 	antiF5("0");
-?>
+?\>
 <!DOCTYPE html>
 <html>
 	<body>
