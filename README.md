@@ -4,20 +4,20 @@ You can implement Anti-f5-attack using PHP.
 <h2>How to use</h2>
 Please only write this in first of php file.
 ↓before↓
-<code>
-<!DOCTYPE html>
-<html>
-	<body>
-		<p>Text</p>
-	</body>
-</html>
-</code>
+<code>```
+\<!DOCTYPE html\><br>
+\<html\><br>
+	\<body\><br>
+		\<p\>Text\</p\><br>
+	\</body\><br>
+\</html\><br>
+```</code>
 ↓after↓
 <code>
-\<?php
+<?php
 	require "./anti_f5.php";
 	antiF5("0");
-?\>
+?>
 <!DOCTYPE html>
 <html>
 	<body>
