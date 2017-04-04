@@ -4,14 +4,12 @@ You can implement Anti-f5-attack using PHP.
 <h2>How to use</h2>
 Please only write this in first of php file.
 ### ↓before↓ ###
-<code>
-`<!DOCTYPE html>`<br>
+`<!DOCTYPE html>`<br> 
 `<html>`<br>
-	`<body>`<br>
-		`<p>`Text`</p>`<br>
-	`</body>`<br>
+  `<body>`<br>
+    `<p>Text</p>`<br>
+  `</body>`<br>
 `</html>`<br>
-</code>
 ↓after↓
 <code>
 <?php
