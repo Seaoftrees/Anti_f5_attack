@@ -24,9 +24,10 @@ Please only write this in first of php file.
       </body>
     </html>
     
-<h2>Options</h2>
-### anti_f5.php ###  
-$src = "./thred/f5log.log";		//file directory  
+<h2>Options</h2>  
+    
+### anti_f5.php ###
+$src = "./thred/f5log.log";	 //file directory  
 $msg = "Stopped load this web page a few seconds because of loading it too often.";	//message when f5 attack  
 $msg_color = "red";	//message color  
 $delay = 3; //delay time when load (sec)  
