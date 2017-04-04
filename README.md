@@ -30,7 +30,19 @@ Please only write this in first of php file.
     $msg = "Stopped load this web page a few seconds because of loading it too often.";	//message when f5 attack  
     $msg_color = "red";	//message color  
     $delay = 3; //delay time when load (sec)  
-  
+    
+### ↓after↓ ###
+    <?php
+      require "./anti_f5.php";
+      antiF5("0");
+    ?>
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <p>Text</p>
+      </body>
+    </html>
+    
 ### description ###
 '$src' of String is a log file directory. You need not create this file because it is created automatic.  
   
