@@ -12,11 +12,15 @@ Please only write this in first of php file.
       </body>
     </html>
     
-### ブロックレベル ###
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script type="text/javascript">
-    $(function() {
-        alert($); /* 先頭に4文字のスペース、
-                     もしくはタブを挿入します */
-    });
-    </script>
+### ↓after↓ ###
+    <?php
+      require "./anti_f5.php";
+    ?>
+    <!DOCTYPE html>
+    <html>
+      <body>
+        <p>Text</p>
+      </body>
+    </html>
+    
+<h2>Options</h2>
