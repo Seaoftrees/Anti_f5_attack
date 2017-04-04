@@ -4,7 +4,7 @@ You can implement Anti-f5-attack using PHP.
 <h2>How to use</h2>
 Please only write this in first of php file.<br>
 require "[directory]"; // => anti_f5.php directory.<br>
-antiF5("ID"); // => this web page ID. **YOU DON'T USE "8" AND "9".**  
+antiF5("ID"); // => this web page ID. <b>YOU DON'T USE "8" AND "9".</b>  
 
 ### ↓before↓ ###
     <!DOCTYPE html>
