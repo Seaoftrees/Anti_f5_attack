@@ -27,10 +27,12 @@ Please only write this in first of php file.
 <h2>Options</h2>  
     
 ### anti_f5.php ###
+<code>
 $src = "./thred/f5log.log";	 //file directory  
 $msg = "Stopped load this web page a few seconds because of loading it too often.";	//message when f5 attack  
 $msg_color = "red";	//message color  
 $delay = 3; //delay time when load (sec)  
+</code>
     
 ### description ###
 '$src' of String is a log file directory. You need not create this file because it is created automatic.  
